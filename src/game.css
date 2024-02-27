@@ -1,0 +1,51 @@
+body {
+  background: url("tapete.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.cardArea {
+  width: 100%;
+  text-align: center;
+}
+
+.cardArea h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.cardArea img {
+  max-width:11%;
+  margin: 2px;
+}
+
+#status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  width: 60%;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: auto; 
+  margin-right: auto;
+  background-color: white;
+  font-size: 1.5em;
+}
+
+#status p {
+  margin-top: auto; 
+  margin-bottom: auto;
+}
+
+button, input[type="submit"] {
+    background-color: #1d6800;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #004515;
+}

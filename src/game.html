@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="game.css">
+    <style>
+      .cardArea {
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="pcArea" class="cardArea">
+      <h3>Dealer</h3>
+    </div>
+    <div id="playerArea" class="cardArea">
+      <h3>Player</h3>
+    </div>
+    <div id="status">
+      <p id="playerTurn" style="display: none;"> What do you do? <button onclick="hitMe()">Hit Me!</button>
+        <button onclick="stay()">Stay</button>
+      </p>
+      <p id="pcTurn" style="display: none;"></p>
+      <p id="playerBusted" style="display: none;">You busted!</p>
+      <p id="pcBusted" style="display: none;">Dealer busted - you win!</p>
+      <p id="pcWon" style="display: none;">Dealer won.</p>
+      <p id="playerWon" style="display: none;">You won!</p>
+      <p id="tie" style="display: none;">It's a tie!</p>
+    </div>
+    <div>
+        <button onclick="volver()">Página principal</button>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
