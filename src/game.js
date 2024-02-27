@@ -39,7 +39,7 @@ function updateUI() {
 					<h3>Dealer</h3>${pcCards.map(card => `
 					<img src="${card.image}" title="${card.value} of ${card.suit}">`).join("")}`;
     document.getElementById("playerArea").innerHTML = `
-						<h3>Player</h3>${playerCards.map(card => `
+						<h3>Jugador</h3>${playerCards.map(card => `
 						<img src="${card.image}" title="${card.value} of ${card.suit}">`).join("")}`;
     document.getElementById("playerTurn").style.display = playerTurn ? "block" : "none";
 }
